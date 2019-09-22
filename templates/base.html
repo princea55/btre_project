@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
       <meta charset="UTF-8">
-      <title>BT Real Estate</title>
+      <title>BT Real Estate {%block title%}{%endblock%}</title>
       <!-- Font Awesome -->
       <link rel="stylesheet" href="{%static 'css/all.css'%}">
       <!-- Bootstrap -->
@@ -15,7 +15,7 @@
 
 </head>
 <body>
-<!--TOp Bar-->
+<!--Top Bar-->
 {%include 'partials/_topbar.html'%}
 {%include 'partials/_navbar.html'%}
 {%block content%}
