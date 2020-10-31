@@ -1,4 +1,5 @@
 /*global gettext, interpolate, ngettext*/
+
 (function($) {
     'use strict';
     var lastChecked;
@@ -134,6 +135,7 @@
         });
     };
     /* Setup plugin defaults */
+    
     $.fn.actions.defaults = {
         actionContainer: "div.actions",
         counterContainer: "span.action-counter",
