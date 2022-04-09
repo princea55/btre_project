@@ -4,6 +4,9 @@ from django.db import models
 
 
 class Contacts(models.Model):
+    """
+    This model is used for create contact
+    """
     listing = models.CharField(max_length=200)
     listing_id = models.IntegerField()
     name = models.CharField(max_length=200)
