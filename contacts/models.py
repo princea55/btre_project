@@ -5,7 +5,7 @@ from django.db import models
 
 class Contacts(models.Model):
     """
-    This model is used for create contact
+    This model is used for create contact feature-1 branch
     """
     listing = models.CharField(max_length=200)
     listing_id = models.IntegerField()
